@@ -1,6 +1,13 @@
-# Bootloader Real em Assembly
+# Bootloader em Assembly
 
-**📹 Vídeo da aplicação rodando:** [LINK_DO_VIDEO_AQUI]
+# **Aplicação rodando:**
+
+<div style={{margin: 25}}>
+    <div style={{textAlign: 'center'}}>
+        <img src={require("media/simuladorbootloader.gif").default} style={{width: 800}} alt="Matriz de Riscos" />
+        <br />
+    </div>
+</div>
 
 ## Descrição
 Bootloader real em Assembly x86 que utiliza real mode da BIOS para ler entrada do usuário, concatenar com frase pré-estabelecida e exibir resultado na tela.
