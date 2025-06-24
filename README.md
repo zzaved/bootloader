@@ -1,8 +1,6 @@
-# Bootloader em Assembly
+# Bootloader Real em Assembly
 
-# **Aplicação rodando:**
-
-![Simulador Bootloader](media/simuladorbootloader.gif)
+![Bootloader](media/simuladorbootloader.gif)
 
 ## Descrição
 Bootloader real em Assembly x86 que utiliza real mode da BIOS para ler entrada do usuário, concatenar com frase pré-estabelecida e exibir resultado na tela.
@@ -57,11 +55,11 @@ dir bootloader.bin
 ```
 Deve ter exatamente **512 bytes** (tamanho padrão de setor de boot).
 
-### 4. Demonstrar Funcionamento
+### 4. Executar no QEMU
 ```cmd
-bootloader.exe
+qemu-system-x86_64 -drive format=raw,file=bootloader.bin
 ```
-(Versão em C que demonstra o comportamento do bootloader Assembly)
+**Resultado**: Bootloader Assembly rodando diretamente na máquina virtual
 
 ## Exemplo de Uso
 ```
