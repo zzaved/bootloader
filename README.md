@@ -68,20 +68,3 @@ bootloader.exe
 Digite seu nome: Pablo
 Ola, Pablo
 ```
-
-## Estrutura do Projeto
-```
-bootloader-projeto/
-├── README.md
-├── bootloader.asm       # Código Assembly principal
-├── bootloader.bin       # Bootloader compilado (512 bytes)
-├── bootloader.c         # Versão demonstrativa em C
-└── bootloader.exe       # Executável para demonstração
-```
-
-## Arquivos do Repositório
-- `bootloader.asm` - Código fonte Assembly (obrigatório)
-- `bootloader.bin` - Bootloader compilado de 512 bytes
-- `README.md` - Documentação do projeto
-- `bootloader.c` - Versão demonstrativa em C
-- `bootloader.exe` - Executável para demonstração
